@@ -1,0 +1,18 @@
+@mixin textParams($color: $gray, $size: 14px, $weight: regular) {
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+}
+@mixin rateBlock($w,$h,$fz,$margin) {
+  display: flex;
+  height: $w;
+  width: $h;
+  color: $yellow;
+  font-weight: bold;
+  background: $bgColor;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: $fz;
+  margin: $margin;
+}

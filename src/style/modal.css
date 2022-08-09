@@ -1,0 +1,207 @@
+.modal .modal-dialog .modal-content .modal-body h5, .auth .block h5 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 39px;
+  padding: 0;
+  margin: 0;
+}
+
+.modal {
+  margin-top: 100px;
+  border: 0;
+}
+
+.modal .modal-dialog {
+  max-width: 630px;
+}
+
+.modal .modal-dialog .modal-content {
+  background: #353941;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+  padding: 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body h5 {
+  margin-top: 30px;
+}
+
+.modal .modal-dialog .modal-content .modal-body hr {
+  height: 2px;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  margin: 15px auto;
+}
+
+.modal .modal-dialog .modal-content .modal-body button.action {
+  border: none;
+  outline: none;
+  height: 52px;
+  background: #11121a;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.modal .modal-dialog .modal-content .modal-body p {
+  color: #c4c4c4;
+  font-size: 16px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-rate .rate {
+  margin: 20px 0px 40px 0px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-rate .rate i {
+  font-size: 45px;
+  margin: 0 5px;
+  color: #ffb700;
+  fill: #ffb700;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-list .lists {
+  margin: 60px 0;
+  padding: 0 50px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-list .lists .list {
+  padding: 20px;
+  margin: 20px 0;
+  height: 50px;
+  background: #11121a;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-list .lists .list .name i {
+  font-size: 30px;
+  color: #ffb700;
+  margin-right: 15px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-list .lists .list button {
+  background: #ffb700;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  width: 98px;
+  height: 30px;
+  border: none;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-list .lists .list button#close {
+  background: #c4c4c4;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-create .form-input {
+  margin: 50px 80px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-create .form-input .input-group {
+  background: #11121a;
+  border: none;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-create .form-input .input-group .input-group-text {
+  background: none;
+  border: 0px;
+  border-right: 2px solid #c4c4c4;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-create .form-input .input-group i {
+  color: #ffb700;
+  font-size: 22px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .content-create .form-input .input-group input {
+  background: #11121a;
+  height: 55px;
+  border: none;
+  color: white;
+}
+
+.auth {
+  margin-top: 150px;
+}
+
+.auth .block {
+  background: #353941;
+}
+
+.auth .block h5 {
+  margin-top: 30px;
+}
+
+.auth .block hr {
+  height: 2px;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  margin: 15px auto;
+}
+
+.auth .block button.action {
+  border: 0;
+  outline: none;
+  height: 52px;
+  background: #11121a;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.auth .block p {
+  color: #c4c4c4;
+  font-size: 16px;
+}
+
+.auth .block form {
+  margin: 30px 0;
+}
+
+.auth .block form .input-group {
+  margin-bottom: 30px;
+}
+
+.auth .block form .input-group .input-group-text {
+  background: #11121a;
+  border: none;
+  color: #ffb700;
+  border-right: 2px solid #c4c4c4;
+}
+
+.auth .block form .input-group input {
+  height: 45px;
+  background: #11121a;
+  border: 0;
+  color: white;
+}
+
+.auth .block form .guess-link a {
+  color: #c4c4c4;
+  font-size: 16px;
+}
+
+.auth .block form .action-form {
+  margin-top: 30px;
+}
+
+.auth .block form .action-form .action-btn {
+  outline: 0;
+  margin: 10px;
+  width: 80%;
+  height: 50px;
+  font-size: 18px;
+  border: 0;
+}
+
+.auth .block form .action-form .action-btn#regJoin {
+  background: #ffb700;
+  color: white;
+}
+
+.auth .block form .action-form .action-btn#goAuth {
+  background: #11121a;
+  color: #ffb700;
+}

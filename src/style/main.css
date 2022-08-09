@@ -1,0 +1,1172 @@
+@media (max-width: 575.98px) {
+  .header .navbar .navbar-nav .nav-item {
+    padding: 10px;
+  }
+  .header .navbar .user-action {
+    margin: 0 25px;
+  }
+}
+
+.button {
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 5 25px;
+}
+.button.outline {
+  background: #11121a;
+  color: #ffb700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("./fonts/Inter-Light.ttf");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("./fonts/Inter-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("./fonts/Inter-Medium.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("./fonts/Inter-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  line-height: 1;
+}
+
+h2 {
+  font-weight: bold;
+  color: white;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+h4 {
+  font-weight: bold;
+  color: white;
+}
+
+h5 {
+  font-weight: bold;
+  color: white;
+}
+
+h6 {
+  font-weight: bold;
+  color: white;
+}
+
+.item {
+  margin: 0;
+  padding: 10px;
+}
+
+.item .poster {
+  height: 290px;
+}
+
+.item .poster img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.item .info a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.item .info h6:hover {
+  text-decoration: underline;
+  color: #ffb700;
+}
+
+.header-block {
+  margin: 0;
+  padding: 0;
+}
+
+.header-block .sort-button button {
+  margin: 0 5px;
+}
+
+.header-block .sort-button button.active {
+  color: white;
+  font-weight: bold;
+  background: #ffb700;
+}
+
+.list-item {
+  padding: 0px;
+}
+
+.list-item .item {
+  padding: 15px;
+}
+
+.list-item .item .content {
+  padding: 0;
+  margin: 0;
+}
+
+.list-item .item .content .poster {
+  width: 100%;
+  height: 100%;
+  background: url("http://media.filmz.ru/photos/full/filmz.ru_f_144542.jpg");
+  background-size: cover;
+}
+
+.list-item .item .content .poster img {
+  height: 100%;
+  width: 100%;
+}
+
+.list-item .item .content h5 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.filter {
+  background: #353941;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.filter form select {
+  width: 210px;
+  height: 45px;
+  color: #c4c4c4;
+  background: #11121a;
+  border: 0;
+  border-right: #ffb700 2px solid;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.filter form select:first-child {
+  border-left: #ffb700 2px solid;
+}
+
+.filter form button {
+  width: 162px;
+  height: 37px;
+  background: #ffb700;
+  color: white;
+  margin-top: 30px;
+}
+
+.filter .select {
+  background: #11121a;
+  cursor: pointer;
+  height: 45px;
+  font-size: 16px;
+  border-left: 1px solid #ffb700;
+  border-right: 1px solid #ffb700;
+}
+
+.filter .select .label {
+  padding: 10px;
+}
+
+.filter .select .label b {
+  padding: 0;
+  margin: 0;
+  color: #353941;
+}
+
+.filter .select .label i {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 0;
+  color: #ffb700;
+}
+
+.filter .select .label i.active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.filter .select .sort {
+  display: none;
+  background: #11121a;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.filter .select .sort.active {
+  display: block;
+}
+
+.filter .select .sort::-webkit-scrollbar {
+  width: 2px;
+}
+
+.filter .select .sort::-webkit-scrollbar-thumb {
+  background: #ffb700;
+}
+
+.filter .select .sort .item {
+  padding: 5px 10px;
+  text-align: left;
+  height: 45px;
+  width: 100%;
+  border-bottom: 1px solid #c4c4c4;
+  color: #c4c4c4;
+}
+
+.filter .select .sort .item.active {
+  color: white;
+  background: #ffb700;
+}
+
+.filter .search-bar {
+  position: relative;
+}
+
+.filter .search-bar input {
+  height: 45px;
+  background: #11121a;
+  border: 0;
+  padding: 0 15px;
+  color: #c4c4c4;
+  outline: none;
+}
+
+.filter .search-bar i {
+  width: 36px;
+  height: 36px;
+  color: #ffb700;
+  position: absolute;
+  right: 1%;
+  line-height: 2.5;
+}
+
+.search-params {
+  padding: 0;
+}
+
+.search-params .params {
+  cursor: pointer;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 10px 15px;
+  font-size: 19px;
+  color: gray;
+}
+
+.search-params .params.active {
+  background: #ffb700;
+  color: white;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.search-params .params.active span {
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+.search-params .params .number {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  background: #353941;
+  color: white;
+}
+
+.pages {
+  margin: 60px auto;
+}
+
+.pages .nav-btn {
+  width: 46px;
+  height: 46px;
+  background: #353941;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  line-height: 0%;
+}
+
+.pages ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pages ul li {
+  display: inline-block;
+  font-size: 16px;
+  color: #c4c4c4;
+  margin: 0 10px;
+}
+
+.pages ul li.active {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#delimiter {
+  margin: 20px auto;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb700), to(rgba(196, 196, 196, 0)));
+  background: linear-gradient(90deg, #ffb700 0%, rgba(196, 196, 196, 0) 100%);
+  height: 2px;
+}
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  background: #353941;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  width: 140px;
+  height: 32px;
+  color: #ffb700;
+}
+.outline {
+  color: white;
+  background: #353941;
+}
+
+.button:active {
+  border: none;
+  outline: 0;
+}
+
+body {
+  background: #11121a;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+}
+
+h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header {
+  background: #353941;
+  padding: 0;
+  margin: 0;
+}
+
+.header .navbar {
+  background: #353941;
+  padding: 10px;
+}
+
+.header .navbar .navbar-nav {
+  margin-left: 30px;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link {
+  margin: 0 20px 0 0;
+  padding: 0;
+  color: #c4c4c4;
+  font-size: 18px;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link.active {
+  color: white;
+  font-weight: bold;
+}
+
+.header .navbar .user-action button {
+  outline: 0;
+  border: 0px;
+  margin: 0 10px;
+  padding: 5px 25px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.header .navbar .user-action button#login {
+  background: #ffb700;
+  color: white;
+}
+
+.header .navbar .user-action button#reg {
+  background: #11121a;
+  color: white;
+}
+
+.header .navbar-brand {
+  color: #ffb700;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .navbar-brand.hover {
+  color: #ffb700;
+}
+
+.slider-section {
+  margin-top: 100px;
+}
+
+.slider-section .slider .nav-btn {
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  background: #353941;
+  color: white;
+  margin: 15px;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 25px;
+  line-height: 0;
+}
+
+.slider-section .slider .slide {
+  position: relative;
+  background: #353941;
+}
+
+.slider-section .slider .slide .text-info {
+  padding: 45px;
+}
+
+.slider-section .slider .slide .text-info p {
+  color: #c4c4c4;
+  padding: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.slider-section .slider .slide .text-info span {
+  font-size: 18px;
+  color: #c4c4c4;
+}
+
+.slider-section .slider .slide .text-info button {
+  width: 162px;
+  height: 37px;
+  background: #ffb700;
+  color: White;
+  border: 0;
+  outline: none;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.slider-section .slider .slide .poster img {
+  width: 260px;
+  height: 320px;
+}
+
+.list-film {
+  margin-top: 140px;
+}
+
+.list-film hr {
+  margin: 20px auto;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb700), to(rgba(196, 196, 196, 0)));
+  background: linear-gradient(90deg, #ffb700 0%, rgba(196, 196, 196, 0) 100%);
+  height: 2px;
+}
+
+.list-film .slider-movie {
+  padding: 0;
+  margin: 0;
+}
+
+.list-film .slider-movie:after {
+  content: '';
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(196, 196, 196, 0)), to(#11121a));
+  background-image: linear-gradient(to right, rgba(196, 196, 196, 0) 0%, #11121a 100%);
+  will-change: opacity;
+  pointer-events: none;
+}
+
+.list-film .slider-movie .item-film {
+  margin: 0 15px;
+}
+
+.list-film .slider-movie .item-film .poster {
+  height: 245px;
+  margin-bottom: 10px;
+}
+
+.list-film .slider-movie .item-film .poster img {
+  height: 100%;
+}
+
+.list-film .slider-movie .item-film .info a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.list-film .slider-movie .item-film .info h6:hover {
+  text-decoration: underline;
+  color: #ffb700;
+}
+
+.list-film .slider-movie .nav-slide button {
+  border: 0;
+  outline: 0;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #353941;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.list-film .nav-btn {
+  border: 0;
+  outline: 0;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #353941;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  margin: 15px;
+}
+
+.list-film .nav-btn i {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.list-film .nav-btn i:before {
+  line-height: 2;
+}
+
+.single .header-bg {
+  z-index: -1;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(#353941), to(rgba(17, 18, 26, 0.4))), url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/wzJRB4MKi3yK138bJyuL9nx47y6.jpg") no-repeat;
+  background: linear-gradient(180deg, #353941 0%, rgba(17, 18, 26, 0.4) 100%), url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/wzJRB4MKi3yK138bJyuL9nx47y6.jpg") no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+}
+
+.single .header-info {
+  margin-top: 110px;
+}
+
+.single .header-info .poster {
+  height: 400px;
+}
+
+.single .header-info .about span {
+  color: #c4c4c4;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.single .header-info .about i {
+  color: #c4c4c4;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.single .header-info .about .action {
+  margin-top: 70px;
+}
+
+.single .header-info .about .action p {
+  color: white;
+  font-style: italic;
+}
+
+.single .header-info .about .action .action-btn button {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  background: #353941;
+  border: 0;
+  margin-right: 20px;
+}
+
+.single .header-info .about .action .action-btn button i {
+  color: #ffb700;
+  line-height: 0;
+  font-size: 25px;
+}
+
+.main-info {
+  margin-top: 90px;
+}
+
+.main-info .role {
+  padding: 0;
+  margin: 0;
+}
+
+.main-info h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.main-info p {
+  padding: 0;
+  margin: 2px 0 0 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+}
+
+.main-info .description {
+  margin-top: 30px 0;
+}
+
+.main-info .description h4 {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+.main-info .description p {
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.main-info .roles div {
+  margin: 30px 0;
+}
+
+.additional {
+  margin: 100px 0px;
+}
+
+.additional .header-block {
+  margin: 0;
+  padding: 0;
+}
+
+.additional .list-of-items {
+  margin-top: 25px;
+  padding: 0;
+}
+
+.additional a {
+  color: white;
+}
+
+.profile {
+  margin-top: 70px;
+}
+
+.profile .profile-info {
+  background: #353941;
+  padding: 30px;
+  height: 100%;
+}
+
+.profile .profile-info .aboutMe img {
+  height: 104px;
+  width: 104px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.profile .profile-info .stats .myRate {
+  margin: 0 50px;
+}
+
+.profile .profile-info .stats .myRate .score {
+  margin: 10px auto;
+  border-radius: 50%;
+  height: 63px;
+  width: 63px;
+  background: #11121a;
+  text-align: center;
+  color: #ffb700;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.MyFilm {
+  margin-top: 90px;
+}
+
+.MyFilm .list-items {
+  margin: 0;
+  padding: 0;
+}
+
+.MyFilm .list-items .list {
+  margin: 20px 0;
+}
+
+.MyFilm .list-items .list .named {
+  color: white;
+  background: #353941;
+  font-weight: bold;
+  font-size: 18px;
+  height: 85px;
+  padding: 10px;
+}
+
+.MyFilm .list-items .list button {
+  background: #ffb700;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+.MyFilm .list-items .rate-items {
+  background: #353941;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.MyFilm .list-items .poster {
+  height: 225px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.MyFilm .list-items .poster img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.MyFilm .list-items .about_film {
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.MyFilm .list-items .about_film .named h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+.MyFilm .list-items .about_film .named b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 38px;
+  width: 38px;
+  color: #ffb700;
+  font-weight: bold;
+  background: #11121a;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.MyFilm .list-items .about_film .descr p {
+  text-align: justify;
+  font-size: 14px;
+  color: #c4c4c4;
+  font-weight: lighter;
+  display: -webkit-box;
+}
+
+.MyFilm .list-items .about_film .action_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.MyFilm .list-items .about_film .action_link .action {
+  margin-right: 30px;
+}
+
+.MyFilm .list-items .about_film .action_link .action i {
+  color: #ffb700;
+  font-size: 24px;
+}
+
+.MyFilm .list-items .about_film .action_link .action span {
+  font-size: 16px;
+  color: #c4c4c4;
+}
+
+.MyFilm .list-items .rate b {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  width: 80px;
+  color: #ffb700;
+  font-weight: bold;
+  background: #11121a;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 32px;
+  margin: 0 auto;
+}
+
+.MyFilm .list-items .rate span {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.person {
+  margin-top: 70px;
+}
+
+.person .image {
+  position: relative;
+}
+
+.person .image img {
+  width: 300px;
+}
+
+.person .about {
+  padding: 15px;
+}
+
+.person .about b {
+  font-size: 20px;
+}
+
+.person .about .bio {
+  margin-top: 25px;
+}
+
+.person .about .bio h3 {
+  font-size: 26px;
+  color: white;
+  font-weight: 700;
+}
+
+.person .about .bio p {
+  text-align: justify;
+  color: #c2c2c2;
+  font-size: 15px;
+  overflow: hidden;
+  margin-top: 15px;
+  text-overflow: clip;
+  line-height: 1.7;
+}
+
+.detail .facts .fact {
+  margin-bottom: 30px;
+}
+
+.detail .facts .fact h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.detail .facts .fact p {
+  font-size: 16px;
+  color: white;
+}
+
+.detail .participation {
+  margin-top: 60px;
+}
+
+.detail .participation .select b {
+  color: white;
+}
+
+.detail .participation .select i {
+  font-size: 22px;
+  color: #ffb700;
+  line-height: 0;
+}
+
+.detail .participation .select i.active {
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.detail .participation .select .sort {
+  display: none;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.detail .participation .select .sort .sort.active {
+  display: block;
+}
+
+.detail .participation .select .sort ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.detail .participation .select .sort ul li {
+  cursor: pointer;
+  padding: 10px 50px 10px 15px;
+  text-align: left;
+  background: #353941;
+  margin: 0;
+  border-top: 1px solid #ffb700;
+  border-bottom: 1px solid #ffb700;
+  color: white;
+}
+
+.detail .participation .select .sort ul li.active {
+  background: #ffb700;
+}
+
+.detail .list-role {
+  background: #353941;
+  margin-top: 15px;
+}
+
+.detail .list-role .movie {
+  padding: 20px;
+  border-bottom: 1px solid white;
+}
+
+.detail .list-role .movie .year {
+  font-size: 18px;
+  color: white;
+}
+
+.detail .list-role .movie .named {
+  color: white;
+}
+
+.detail .list-role .movie .named b {
+  line-height: 1;
+  font-size: 18px;
+}
+
+.detail .list-role .movie .named i {
+  display: block;
+  font-size: 14px;
+  color: #11121a;
+}
+
+.detail .list-role .movie .action button {
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+  padding: 0;
+  text-align: center;
+  background: #11121a;
+  border: none;
+}
+
+.detail .list-role .movie .action button i {
+  height: 20px;
+  width: 20px;
+  color: #ffb700;
+  line-height: 1;
+}
+
+.detail .list-role .movie .action button i:before {
+  height: 20px;
+  width: 20px;
+  line-height: 1.4;
+}
+
+.detail .list-role .movie .rate b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  width: 45px;
+  color: #ffb700;
+  font-weight: bold;
+  background: #11121a;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.detail .list-role table tr {
+  vertical-align: middle;
+}
+
+.detail .list-role table tr td {
+  padding: 15px 10px;
+}
+
+.detail .list-role table #year {
+  color: white;
+  font-size: 16px;
+}
+
+.detail .list-role table #name {
+  color: white;
+}
+
+.detail .list-role table #name b {
+  font-size: 16px;
+}
+
+.detail .list-role table #name i {
+  display: block;
+  font-size: 14px;
+  color: #11121a;
+}
+
+.detail .list-role table #action button {
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+  padding: 0;
+  text-align: center;
+  background: #11121a;
+  border: none;
+}
+
+.detail .list-role table #action button i {
+  height: 20px;
+  width: 20px;
+  color: #ffb700;
+  line-height: 1;
+}
+
+.detail .list-role table #action button i:before {
+  height: 20px;
+  width: 20px;
+  line-height: 1.4;
+}
+
+.detail .list-role table #rate b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  width: 45px;
+  color: #ffb700;
+  font-weight: bold;
+  background: #11121a;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.bg-film {
+  background: -webkit-gradient(linear, left top, left bottom, from(#353941), to(rgba(17, 18, 26, 0.4))), url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/wzJRB4MKi3yK138bJyuL9nx47y6.jpg") no-repeat;
+  background: linear-gradient(180deg, #353941 0%, rgba(17, 18, 26, 0.4) 100%), url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/wzJRB4MKi3yK138bJyuL9nx47y6.jpg") no-repeat;
+  background-position: center;
+}
+
+.bg-film .named-films {
+  margin: 30px 0;
+}
+
+.bg-film .named-films a {
+  display: block;
+  margin-top: 5px;
+  color: #ffb700;
+}
+
+.squad {
+  margin-top: 40px;
+}
+
+.squad .actor {
+  margin: 30px 0;
+}
+
+.squad .actor .profile-image {
+  width: 66px;
+  height: 66px;
+}
+
+.squad .actor .profile-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.squad .actor .detail {
+  margin: 0 15px;
+}
+
+.squad .actor .detail a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.squad .actor .detail i {
+  display: block;
+  color: white;
+  font-size: 14px;
+}
